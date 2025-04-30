@@ -1,0 +1,24 @@
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.28.0
+timm>=0.6.12
+stable-baselines3>=2.0.0
+
+# Vision and text processing
+opencv-python>=4.7.0
+pillow>=9.4.0
+sentence-transformers>=2.2.2
+
+# ViZDoom dependencies
+vizdoom>=1.2.0
+gymnasium>=0.28.1
+
+# Utilities and monitoring
+wandb>=0.15.0
+tqdm>=4.65.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Optional: for better performance
+# cudatoolkit  # Install via conda for GPU support
