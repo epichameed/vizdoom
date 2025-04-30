@@ -20,7 +20,7 @@ from doom_agents import (
 class ExperimentManager:
     def __init__(
         self,
-        config_path="basic.cfg",
+        config_path="/content/gdrive/MyDrive/ML4_vizdoom/configs/basic.cfg",
         n_envs=2,  # Reduced for Colab memory constraints
         n_seeds=3,  # Minimum 3 seeds as per requirements
         total_timesteps=1_000_000,  # Increased for better learning
